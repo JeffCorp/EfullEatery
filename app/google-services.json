@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "253822485052",
+    "firebase_url": "https://efullemenu.firebaseio.com",
+    "project_id": "efullemenu",
+    "storage_bucket": "efullemenu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253822485052:android:af118be6c0e1b2f0",
+        "android_client_info": {
+          "package_name": "com.example.efulleatery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253822485052-5beesbjf1sq3gsfo7svi3tj3f9nuatun.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.efulleatery",
+            "certificate_hash": "951704e8b392c636774e4134e01fb847010c60aa"
+          }
+        },
+        {
+          "client_id": "253822485052-l12gbcfckqdvauj3flmtb9q797ldk87m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfFDMBOF3_Evbqj_3j-zPcXBnr3fUzdr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253822485052-l12gbcfckqdvauj3flmtb9q797ldk87m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

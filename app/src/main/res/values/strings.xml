@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Efull eMenu</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab1">Sign in</string>
+    <string name="tab2">Signup</string>
+    <string name="welcome">Welcome to Waiter Assistant</string>
+    <string name="proceed">Continue</string>
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign up</string>
+    <string name="tabFood">Food</string>
+    <string name="tabDrinks">Drinks</string>
+    <string name="tabSnacks">Snacks</string>
+    <string name="tabFruits">Fruits</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="table_option">Table Orders</string>
+    <string name="no_table">Single Orders</string>
+    <string name="table_list_title">Choose a table</string>
+    <string name="instruction">Please input your details carefully</string>
+
+    <string-array name="tables">
+        <item>Table 1</item>
+        <item>Table 2</item>
+        <item>Table 3</item>
+        <item>Table 4</item>
+        <item>Table 5</item>
+        <item>Table 6</item>
+        <item>Table 7</item>
+        <item>Table 8</item>
+        <item>Table 9</item>
+        <item>Table 10</item>
+    </string-array>
+
+    <string-array name="foods">
+        <item>Food 1</item>
+        <item>Food 2</item>
+    </string-array>
+
+
+    <string name="user_name">Jeffrey</string>
+    <string name="user_password">jeff@123</string>
+    <string name="login_preference">com.example.efulleatery_login_preference</string>
+    <string name="login_status_preference">com.example.efulleatery_login_status_preference</string>
+    <string name="operation_preference">com.example.efulleatery_operation_preference</string>
+    <string name="operation_status_preference">com.example.efulleatery_operation_status_preference</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="makers">Powered by EFULL TECH</string>
+    <string name="email">email@example.com</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+</resources>

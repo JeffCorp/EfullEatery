@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorEfull"
+    android:elevation="4dp"
+    android:id="@+id/toolbarCheckOut"
+    app:titleTextColor="@color/colorWhite"
+    app:subtitleTextColor="@color/colorWhite"
+    >
+
+    <ImageButton
+        android:id="@+id/print"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_print"
+        android:background="@color/colorEfull"
+        android:layout_marginLeft="250dp"
+        />
+
+</android.support.v7.widget.Toolbar>

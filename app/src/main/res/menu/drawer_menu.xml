@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawer_food"
+            android:icon="@drawable/ic_restaurant_menu_ash"
+            android:title="Food"/>
+        <item
+            android:id="@+id/drawer_drinks"
+            android:icon="@drawable/ic_restaurant_menu"
+            android:title="Drinks"/>
+        <item
+            android:id="@+id/drawer_snacks"
+            android:icon="@drawable/ic_room_service_ash"
+            android:title="Snacks"/>
+
+        <item
+            android:id="@+id/drawer_fruits"
+            android:icon="@drawable/ic_free_breakfast"
+            android:title="Fruits"/>
+
+    </group>
+</menu>

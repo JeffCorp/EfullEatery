@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.SettingsActivity">
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:id="@+id/appBar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+        <!--&gt;-->
+
+        <!--<android.support.design.widget.CollapsingToolbarLayout-->
+            <!--android:id="@+id/collapsingToolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--app:layout_scrollFlags="exitUntilCollapsed|scroll"-->
+            <!--app:contentScrim="?attr/colorPrimary"-->
+            <!--app:title="Settings"-->
+            <!--app:expandedTitleMarginStart="48dp"-->
+            <!--app:expandedTitleMarginEnd="64dp"-->
+            <!--android:background="@drawable/food3"-->
+            <!--&gt;-->
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_settings"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:titleTextColor="@color/colorEfull"
+                app:title="Settings"
+                />
+        <!--</android.support.design.widget.CollapsingToolbarLayout>-->
+
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+    <!--<android.support.v4.widget.NestedScrollView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment_container"
+            />
+    <!--</android.support.v4.widget.NestedScrollView>-->
+
+
+
+
+    
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:padding="20dp"-->
+        <!--android:background="@color/colorWhite"-->
+        <!--&gt;-->
+        <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp" -->
+            <!--android:src="@drawable/waiter_man"-->
+            <!--/>-->
+        <!---->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Username"-->
+            <!--android:padding="10dp"-->
+            <!--/>-->
+        <!---->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="500dp"-->
+        <!--android:layout_marginTop="1dp"-->
+        <!--android:background="@color/colorWhite"-->
+        <!--android:orientation="vertical"-->
+        <!--&gt;-->
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Menu Organization settings"-->
+            <!--android:padding="5dp"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/colorWhite"-->
+            <!--android:paddingRight="185dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:text="Setup tables"-->
+            <!--android:drawableStart="@drawable/ic_room_service_ash"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/colorWhite"-->
+            <!--android:text="Add menu items"-->
+            <!--android:paddingRight="170dp"-->
+            <!--android:textAlignment="center"-->
+            <!--android:drawableStart="@drawable/ic_free_breakfast"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:id="@+id/settings_item"-->
+
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/colorWhite"-->
+            <!--android:text="Set up Rooms"-->
+            <!--android:paddingRight="180dp"-->
+            <!--android:textAlignment="center"-->
+            <!--android:drawableStart="@drawable/ic_room"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/colorWhite"-->
+            <!--android:text="edit menu categories"-->
+            <!--android:paddingRight="130dp"-->
+            <!--android:textAlignment="center"-->
+            <!--android:drawableLeft="@drawable/ic_restaurant_menu_ash"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--/>-->
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/recyclerMenuOrg"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="App Security settings"-->
+            <!--android:padding="5dp"-->
+            <!--/>-->
+
+        <!--&lt;!&ndash;<Button&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/settings_item2"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@color/colorWhite"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="reset application"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:drawableStart="@drawable/ic_warning"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:paddingLeft="10dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:paddingRight="160dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;/>&ndash;&gt;-->
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/recyclerAppSec"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+
+    <!--</LinearLayout>-->
+    
+    
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/settings_item"-->
+        <!--android:layout_width="380dp"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:layout_marginStart="10dp"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:layout_marginEnd="10dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/table_image"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:src="@drawable/ic_memory" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/table_names"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="Update stock"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textStyle="bold"-->
+
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+        <!--android:id="@+id/view"-->
+        <!--android:layout_width="280dp"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:layout_marginStart="50dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_marginEnd="10dp"-->
+        <!--android:background="#454545"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="1.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/settings_item" />-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/settings_item2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="20dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginEnd="20dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/view">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/settings2_image"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:src="@drawable/ic_refresh_red" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/settings2"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="Factory Reset App"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textStyle="bold"-->
+
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+        <!--android:layout_width="280dp"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:layout_margin="20dp"-->
+        <!--android:layout_marginStart="91dp"-->
+        <!--android:layout_marginEnd="20dp"-->
+        <!--android:background="#454545"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/settings_item2" />-->
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Structural setup"
+        >
+
+    <Preference
+        android:title="Setup rooms"
+        android:summary="Place the value of total amount of rooms present within your lounge"
+        android:key="room_setup"
+        />
+
+    <Preference
+        android:title="Setup table"
+        android:summary="Setup the number of tables per room"
+        android:key="table_setup"
+        />
+
+    <Preference
+        android:title="Reserved tables"
+        android:summary="Setup the number of reserved tables"
+        android:key="reserved_setup"
+        />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Setup menu items"
+        >
+        <Preference
+            android:title="Edit menu categories"
+            android:summary="Add, delete, rename menu items category"
+            android:key="edit_menu_setup"
+            />
+        <Preference
+            android:title="Edit menu items"
+            android:summary="Upload or edit food, drinks, snack and soon"
+            android:key="upload_menu_items"
+            />
+
+        <Preference
+            android:title="Display stock"
+            android:summary="Show all available items and their quantity"
+            android:key="display_stock"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="System setup">
+
+        <Preference
+            android:title="Edit device name"
+            android:summary="Change the device name"
+            android:key="edit_device_name"
+            />
+
+        <Preference
+            android:title="Verify server communication"
+            android:summary="Check if the device is connected to the server"
+            android:key="verify_server_communication"
+            />
+
+    </PreferenceCategory>
+</PreferenceScreen>

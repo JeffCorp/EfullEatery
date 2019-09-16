@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingTop="30dp"
+        >
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    >
+                    <TextView
+                        android:id="@+id/allorders_food_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sushi Master"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorEfull"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="25sp"
+                            android:text="&#8358;"
+                            />
+
+                        <TextView
+                            android:id="@+id/allorders_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="( Price )"
+                            android:textSize="25sp"
+                            />
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/allorders_cat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Food"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorEfull"
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+                    <EditText
+                        android:id="@+id/allorders_quantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Set Quantity"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:padding="10dp"
+                        android:inputType="number"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                    <EditText
+                        android:id="@+id/allorders_note"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Notes on meal (Optional)"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:padding="10dp"
+                        android:inputType="textMultiLine"
+                        />
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:background="@color/colorEfull"
+
+                    >
+
+                    <Button
+                        android:id="@+id/allorders_go"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_check"
+                        android:textColor="@color/colorEfull"
+                        android:background="@color/colorEfull"
+                        android:paddingLeft="35dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                    <Button
+                        android:id="@+id/allorders_cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_close"
+                        android:textColor="@color/colorAccent"
+                        android:background="@color/colorEfull"
+                        android:paddingLeft="35dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</RelativeLayout>

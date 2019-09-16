@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="-30dp"
+        android:elevation="6dp"
+        android:padding="30dp"
+        >
+
+        <ImageView
+            android:id="@+id/dialog_search_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_search"
+            android:padding="10dp"
+            android:background="@drawable/circle_dialog_top"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingTop="35dp"
+        >
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:padding="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose prefered order choice"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:elevation="4dp"
+
+                    >
+
+                    <Button
+                        android:id="@+id/table_orders"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Table orders"
+                        android:textColor="@color/colorEfull"
+                        android:background="@color/colorWhite"
+                        android:padding="10dp"
+                        android:backgroundTint="@color/colorWhite"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+
+
+                        />
+
+                    <Button
+                        android:id="@+id/quick_orders"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quick orders"
+                        android:textColor="@color/colorAccent"
+                        android:background="@color/colorWhite"
+                        android:padding="6dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

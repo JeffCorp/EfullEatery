@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mdd"
+    tools:context=".activities.MenuActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/toolbar"
+            />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="56dp"
+           android:padding="10dp"
+           android:orientation="vertical"
+           >
+
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="1dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:padding="10dp"
+
+                   >
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="ITEMS ORDERED"
+                       android:textStyle="bold"
+                       />
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="textEnd"
+                       android:text="ORDER PRICE"
+                       android:paddingRight="20dp"
+                       android:textStyle="bold"
+                       />
+
+               </LinearLayout>
+
+           </android.support.v7.widget.CardView>
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="400dp">
+               <android.support.v7.widget.RecyclerView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:padding="10dp"
+                   android:id="@+id/order_recycler"
+                   />
+           </android.support.v7.widget.CardView>
+
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="2dp"
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:padding="10dp"
+
+                   >
+
+                   <TextView
+                       android:id="@+id/total"
+                       android:layout_width="200dp"
+                       android:layout_height="wrap_content"
+                       android:text="Total"
+                       />
+
+
+                   <TextView
+                       android:id="@+id/total_price"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="textEnd"
+                       android:text=""
+                       android:paddingRight="20dp"
+                       android:textStyle="bold"
+                       />
+
+               </LinearLayout>
+
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="2dp"
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:padding="10dp"
+
+                   >
+
+                   <TextView
+                       android:id="@+id/grand_total"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Grand Total"
+                       />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="  ( + 5% VAT)"
+                       android:textStyle="italic"
+                       />
+
+
+                   <TextView
+                       android:id="@+id/grand_total_price"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="textEnd"
+                       android:text=""
+                       android:paddingRight="20dp"
+                       android:textStyle="bold"
+                       />
+
+               </LinearLayout>
+
+           </android.support.v7.widget.CardView>
+
+
+
+       </LinearLayout>
+
+        <!--<Button-->
+            <!--android:id="@+id/viewOrder"-->
+            <!--android:layout_width="400dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="161dp"-->
+            <!--android:layout_marginLeft="161dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:layout_marginEnd="162dp"-->
+            <!--android:layout_marginRight="162dp"-->
+            <!--android:text="View Order"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/checkOut"-->
+            <!--android:layout_width="400dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="162dp"-->
+            <!--android:layout_marginLeft="162dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginEnd="162dp"-->
+            <!--android:layout_marginRight="162dp"-->
+            <!--android:text="Checkout"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/editOrder" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/editOrder"-->
+            <!--android:layout_width="400dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="161dp"-->
+            <!--android:layout_marginLeft="161dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginEnd="162dp"-->
+            <!--android:layout_marginRight="162dp"-->
+            <!--android:text="Add / Remove order"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/viewOrder" />-->
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>
